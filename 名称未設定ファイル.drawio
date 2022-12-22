@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T06:24:13.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-bRHCA2wJH7PwbUZf5EN" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T06:27:05.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PxpFl1V9oOLxBIueGMrt" version="20.7.4" type="github">
   <diagram name="Page-1" id="74b105a0-9070-1c63-61bc-23e55f88626e">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -10,16 +10,16 @@
         <mxCell id="10b056a9c633e61c-30" value="Title" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="1590" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="10b056a9c633e61c-8" edge="1">
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.007;entryY=0.141;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" target="10b056a9c633e61c-8" edge="1" source="KYUI3N8oyIYQ_wNg4Es2-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="605" as="sourcePoint" />
             <mxPoint x="320" y="935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="10b056a9c633e61c-8" edge="1">
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-8" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" source="KYUI3N8oyIYQ_wNg4Es2-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="765" as="sourcePoint" />
-            <mxPoint x="330" y="945" as="targetPoint" />
+            <mxPoint x="550" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-9" value="災害速報" style="strokeWidth=2;dashed=0;align=center;fontSize=12;fillColor=#c0f5a9;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
@@ -86,38 +86,46 @@
           <mxGeometry x="800" y="1120" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-34" value="ダッシュボード" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#D4E1F5;fillColor=#9999FF;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="60" y="450" width="650" height="720" as="geometry">
+          <mxGeometry x="40" y="440" width="680" height="720" as="geometry">
             <mxRectangle x="60" y="530" width="120" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-40" value="物的事故・クレーム" style="strokeWidth=2;dashed=0;align=center;fontSize=12;fillColor=#cce5ff;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#36393d;" parent="KYUI3N8oyIYQ_wNg4Es2-34" vertex="1">
+          <mxGeometry x="250" y="280" width="150" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-35" value="人身災害" style="strokeWidth=2;dashed=0;align=center;fontSize=12;;fillColor=#cce5ff;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="310" y="560" width="150" height="90" as="geometry" />
+          <mxGeometry x="310" y="560" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-36" value="交通事故" style="strokeWidth=2;dashed=0;align=center;fontSize=12;verticalLabelPosition=bottom;verticalAlign=top;;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="310" y="1015" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-35" edge="1">
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;jettySize=auto;orthogonalLoop=1;strokeWidth=2;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-35" edge="1" source="KYUI3N8oyIYQ_wNg4Es2-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="220" y="605" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-36" edge="1">
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-36" edge="1" source="KYUI3N8oyIYQ_wNg4Es2-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="605" as="sourcePoint" />
             <mxPoint x="660" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="600" />
+              <mxPoint x="270" y="1060" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-40" value="物的事故・クレーム" style="strokeWidth=2;dashed=0;align=center;fontSize=12;fillColor=#cce5ff;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="310" y="720" width="150" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-40" edge="1">
+        <mxCell id="KYUI3N8oyIYQ_wNg4Es2-41" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="KYUI3N8oyIYQ_wNg4Es2-40" edge="1" source="KYUI3N8oyIYQ_wNg4Es2-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="605" as="sourcePoint" />
-            <mxPoint x="320" y="775" as="targetPoint" />
+            <mxPoint x="320" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="600" />
+              <mxPoint x="270" y="760" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-42" value="メニュー" style="strokeWidth=2;dashed=0;align=center;fontSize=12;shape=rect;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="70" y="560" width="150" height="90" as="geometry" />
+          <mxGeometry x="70" y="560" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KYUI3N8oyIYQ_wNg4Es2-44" value="（マスク）災害速報" style="strokeWidth=2;dashed=0;align=center;fontSize=12;fillColor=#c0f5a9;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="1010" y="560" width="150" height="40" as="geometry" />
